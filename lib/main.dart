@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+// ignore: uri_does_not_exist
+import 'dart:html';
 
 void main() => runApp(new MyApp());
 
@@ -17,6 +19,8 @@ class MyApp extends StatelessWidget {
         // "hot reload" (press "r" in the console where you ran "flutter run",
         // or press Run > Flutter Hot Reload in IntelliJ). Notice that the
         // counter didn't reset back to zero; the application is not restarted.
+        
+        //主题样式
         primarySwatch: Colors.red,
       ),
       home: new MyHomePage(title: '我的第一个Flutter项目'),
@@ -43,6 +47,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+  /***类与变量前面加了下划线，表私有***/
   int _counter = 0;
 
   void _incrementCounter() {
