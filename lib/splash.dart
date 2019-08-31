@@ -31,6 +31,7 @@ class SplashState extends State<SplashPage>{
             Route route) => route == null);
       }catch(e){
 
+        
       }
     });
     
